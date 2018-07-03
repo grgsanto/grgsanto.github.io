@@ -1,0 +1,278 @@
+<style type="text/css">
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .menubar{
+    	height: 74px;
+        width: 100%;
+		background: black;
+        position: fixed;
+    }
+    .head{
+		font-size: 4vw;
+		font-weight: bold;
+		margin-left: 100px;
+		color: slateblue;
+        float: left;
+        padding-top: 4px;
+	}
+	.menu ul{
+			list-style: none;
+		}
+		.menu ul li{
+			display: inline-block;
+		}
+		.menu ul li a{
+      	color: white;
+        font-size: 20px;
+      	text-decoration: none;
+        display: inline-block;
+        padding-top: 6px;
+      	margin-right: 35px;
+        }
+        .menu ul li a:hover{
+      	   color: blue;
+         }
+        .menu{
+            float: right;
+        }
+        .body{
+            width: 100%;
+            height: 650px;
+        	background-image: url(home.jpg);
+        	background-size: 100% 650px;
+        }
+        .body a{
+            text-decoration: none;
+        }
+        .text{
+        	font-size: 40px;
+        	padding-top: 300px;
+        	font-weight: bold;
+        	color: white;
+        	text-align: center;
+        	text-transform: capitalize;
+        }
+        .text1{
+        	font-size: 20px;
+        	font-weight: bold;
+        	padding-top: 20px;
+        	color: white;
+        	text-align: center;
+        	text-transform: uppercase;
+        }
+        .bottom{
+        	width: 100%;
+        	height: 300px;
+        	background-color: purple;
+        }
+        .copyright{
+        	width: 100%;
+        	height: 45px;
+        	background-color: black;
+        	margin-bottom: 10px;
+        }
+        .copy{
+        	font-size: 30px;
+        	color: white;
+        	padding-top: 3px;
+        	text-align: center;
+        }
+        .box{
+        	height: 210px;
+        	width: 22%;
+        	float: left;
+        	margin-left: 200px;
+        }
+        .box1{
+        	height: 200px;
+        	width: 22%;
+        	float: left;
+        	margin-left: 80px;
+        }
+        .box1 a{
+            padding: 9px;
+        }
+        .box1 a:hover{
+            background-color: red;
+            padding: 9px;
+        }
+        .box2{
+        	height: 200px;
+        	width: 25%;
+        	float: left;
+        	margin-left: 40px;
+        	/*border: 2px solid black;
+        	margin-top: 50px;*/
+        }
+        .button{
+        	display: inline-block;
+            border-radius: 4px;
+            background-color: #f4511e;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            padding: 10px;
+            width: 180px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .body1{
+            width: 100%;
+            height: 550px;
+        	background-size: 100% 550px;
+        	background-color: skyblue;
+        }
+        .body1 a{
+            text-decoration: none;
+        }
+        .body2{
+            width: 100%;
+            height: 750px;
+        	background-size: 100% 550px;
+        	background-color: skyblue;
+        }
+        .body2 a{
+            text-decoration: none;
+        }
+        .top{
+        	font-size: 50px;
+        	font-weight: bold;
+        	margin-left: 150px;
+        	padding-top: 100px;
+        }
+        .box3{
+        	height: 5px;
+        	width: 78%;
+        	background-color: white;
+        	margin-left: 150px;
+        }
+        .box4{
+        	margin-left: 280px;
+        	height: 300px;
+        	width: 25%;
+        	padding-top: 25px;
+        	float: left;
+        }
+        .box5{
+        	margin-left: 20px;
+        	height: 340px;
+        	width: 40%;
+        	padding-top: 25px;
+        	float: left;
+        	padding: 4px;
+        	margin-top: 20px;
+        }
+        .text4{
+        	margin-left: 150px;
+        	font-size: 28px;
+        	font-weight: bold;
+        }
+        .box6{
+        	margin-left: 250px;
+        	height: 400px;
+        	width: 30;
+        	float: left;
+        	margin-top: 30px;
+        }
+        .box7{
+        	height: 400px;
+        	width: 350px;
+        	border-style: solid;
+        	border-width: 18px;
+        	border-color: red blue;
+        	float: left;
+        	margin-left: 35px;
+        	background-image: url(15823564_1498335373542308_7554417723500503417_n.jpg);
+        	background-size: 350px 400px;
+        	margin-top: 30px;
+        }
+        .font{
+        	font-size: 50px;
+        	color: blue;
+        	font-weight: bold;
+        	margin-top: 20px;
+        }
+        .font1{
+        	font-size: 30px;
+        	color: red;
+        	font-weight: bold;
+        }
+        .font2{
+        	font-size: 20px;
+        	color: black;
+        	font-weight: bold;
+        }
+        .class{
+        	text-align: right;
+        }
+        .body3{
+            width: 100%;
+            height: 1070px;
+        	background-size: 100% 550px;
+        	background-color: skyblue;
+        	padding-top: 110px;
+        }
+        .body3 a{
+            text-decoration: none;
+        }
+        .image{
+        	width: 27%;
+        	height: 250px;
+        	border: 2px solid black;
+        	margin-left: 120px;
+        	float: left;
+        	background-image: url(image.jpg);
+        	background-size: 100% 280px;
+        }
+        .image1{
+        	width: 27%;
+        	height: 250px;
+        	border: 2px solid black;
+        	margin-left: 10px;
+        	float: left;
+        	background-image: url(image1.jpg);
+        	background-size: 100% 280px;
+        }
+        .image2{
+        	width: 27%;
+        	height: 250px;
+        	border: 2px solid black;
+        	margin-left: 10px;
+        	float: left;
+        	background-image: url(image2.jpg);
+        	background-size: 100% 280px;
+        }
+        .image3{
+        	width: 27%;
+        	height: 250px;
+        	border: 2px solid black;
+        	margin-left: 120px;
+        	float: left;
+        	margin-top: 30px;
+        	background-image: url(image3.jpg);
+        	background-size: 100% 280px;
+        }
+        .image4{
+        	width: 27%;
+        	height: 250px;
+        	border: 2px solid black;
+        	margin-left: 10px;
+        	float: left;
+        	margin-top: 30px;
+        	background-image: url(image4.png);
+        	background-size: 100% 280px;
+        }
+        .image5{
+        	width: 27%;
+        	height: 250px;
+        	border: 2px solid black;
+        	margin-left: 10px;
+        	float: left;
+        	margin-top: 30px;
+        	background-image: url(image5.jpg);
+        	background-size: 100% 280px;
+        }
+</style>
